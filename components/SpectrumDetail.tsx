@@ -45,11 +45,11 @@ const SpectrumDetail: React.FC<Props> = ({ band }) => {
 
           {isVisible && (
             <div className="my-4 p-4 bg-black/40 rounded-lg border border-white/5">
-               <h3 className="text-sm font-semibold text-white mb-2">Quang phổ ánh sáng (380nm - 760nm)</h3>
+               <h3 className="text-sm font-semibold text-white mb-2">Quang phổ ánh sáng (0.38 μm - 0.76 μm)</h3>
                <div className="h-12 w-full rounded-md" style={{ background: 'linear-gradient(to right, #8b00ff, #4b0082, #0000ff, #00ff00, #ffff00, #ff7f00, #ff0000)' }}></div>
                <div className="flex justify-between text-xs text-gray-400 mt-1 font-mono">
-                 <span>380nm (Tím)</span>
-                 <span>760nm (Đỏ)</span>
+                 <span>0.38 μm (Tím)</span>
+                 <span>0.76 μm (Đỏ)</span>
                </div>
             </div>
           )}
